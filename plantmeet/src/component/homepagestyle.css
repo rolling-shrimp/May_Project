@@ -1,0 +1,631 @@
+@charset "UTF-8";
+@font-face {
+  font-family: yes;
+  src: url("./首頁使用字型-20230423T032936Z-001/首頁使用字型/JasonHandwriting3p.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: yes;
+}
+
+.theTestModal {
+  position: absolute;
+  top: 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.theTestModal .modal-dialog {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.theTestModal .modal-dialog .modal-content {
+  background-color: transparent !important;
+  border: unset;
+  width: 800px;
+  height: 500px;
+}
+.theTestModal .modal-dialog .modal-content .modal-body {
+  width: 100%;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  background-color: transparent;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .wrapcontent {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea p {
+  font-size: 22px;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea div.exOption {
+  width: 100%;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea div.exOption button.choosing {
+  border: black solid 2px !important;
+  border-radius: 10px !important;
+  padding: 1rem 1.5rem !important;
+  background-color: unset !important;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea div.exOption button.choosing p {
+  font-size: 2rem;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_1 {
+  display: flex;
+  justify-content: around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_1 p {
+  font-size: 22px;
+  text-align: center;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_1 div.course {
+  width: 500px;
+  height: 180px;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_1 div.course img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_1 button {
+  margin-top: 1rem;
+  background-color: #fffdf6;
+  border: #fbc95a soild 1px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fbc95a;
+  width: 120px;
+  height: 35px;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_2 {
+  display: flex;
+  justify-content: around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_2 p {
+  font-size: 22px;
+  text-align: center;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_2 div.course {
+  width: 500px;
+  height: 180px;
+  background-color: gray;
+}
+.theTestModal .modal-dialog .modal-content .modal-body .flowersea1_2 button {
+  margin-top: 1rem;
+  background-color: #fffdf6;
+  border: #fbc95a soild 1px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fbc95a;
+  width: 120px;
+  height: 35px;
+}
+.theTestModal .modal-dialog .modal-content .modal-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.theTestModal .modal-dialog .modal-content .modal-body div p {
+  font-size: 22px;
+}
+.theTestModal .modal-dialog .modal-content .modal-body div div.exOption {
+  width: 100%;
+}
+.theTestModal .modal-dialog .modal-content .modal-body div div.exOption button.choosing {
+  border: black solid 2px;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  background-color: unset;
+}
+.theTestModal .modal-dialog .modal-content .modal-body div div.exOption button.choosing p {
+  font-size: 2rem;
+}
+
+div.all {
+  position: relative;
+}
+div.all .disappear {
+  display: none;
+}
+div.all div#cupcontainer {
+  position: fixed;
+  top: 450px;
+  right: 80px;
+  z-index: 5;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+div.all div#cupcontainer:hover {
+  cursor: pointer;
+}
+div.all div#cupcontainer div#cupon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+div.all div#cupcontainer div#cupon:hover {
+  cursor: pointer !important;
+}
+div.all div#cupcontainer div#cupon:hover::before {
+  content: url("./優惠券蜜蜂-20230501T071404Z-001/優惠券蜜蜂/bee2.png");
+  position: relative;
+  bottom: 10rem;
+}
+div.all section#firstpage {
+  background-image: url("./homepng/home-bg6.png");
+  background-position: center top 30%;
+  background-size: 850px 380px;
+  background-repeat: no-repeat;
+  background-color: #ffffe8 !important;
+  z-index: 0;
+  min-height: 120vh;
+  position: relative;
+}
+div.all section#firstpage div#flower22 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 6.5rem;
+  z-index: -2;
+}
+div.all section#firstpage div#flower33 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 7rem;
+  z-index: 1;
+}
+div.all section#firstpage div#plates {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 1rem;
+  z-index: 2;
+}
+div.all section#firstpage div#plates img.plate {
+  max-width: 120px;
+  height: auto;
+  transition: transform 250ms;
+}
+div.all section#firstpage div#tabletree {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  z-index: 2;
+}
+div.all section#firstpage header {
+  position: relative;
+  height: 110px;
+  top: 0;
+  z-index: 3;
+}
+div.all section#firstpage header nav.up {
+  height: 110px;
+  position: absolute;
+  top: 1rem;
+  right: 9rem;
+  height: 100px;
+  transition: transform 250ms;
+}
+div.all section#firstpage header nav.up button {
+  width: 105px;
+  height: 40px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 1rem;
+  border: unset !important;
+}
+div.all section#firstpage header nav.up button .thelinksss {
+  text-decoration: none;
+  color: #5c9666;
+}
+div.all section#firstpage header nav.up button:hover {
+  height: 105px;
+  border-radius: 50%;
+  background-color: #fac569;
+  text-align: center;
+  line-height: none !important;
+}
+div.all section#firstpage header nav.up button:hover .thelinksss {
+  color: white;
+}
+div.all section#firstpage header div#greenUp {
+  height: 100px;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+}
+div.all section#firstpage header div#greenUp a svg {
+  fill: #fac959; /* Replace with your desired color */
+}
+div.all section#firstpage header img#upic {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  transition: transform 300ms;
+}
+div.all section#firstpage img.meat {
+  height: 400px;
+}
+div.all section#firstpage img.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+div.all section#firstpage img.right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+div.all section#firstpage .hands {
+  width: 30rem;
+}
+div.all section#firstpage .circle {
+  width: 13rem;
+  height: 12rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 19rem;
+  z-index: 3;
+  transition: transform 250ms;
+}
+div.all section#firstpage div.theme {
+  height: 90vh;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 4.5rem;
+  z-index: 2;
+}
+div.all section#firstpage div.theme img#logo {
+  transition: transform 250ms;
+  width: 487.5px;
+  height: 195px;
+}
+div.all section#firstpage div.theme div.handAndcircle {
+  animation: pulse 3s infinite;
+}
+div.all section#firstpage div.theme div.handAndcircle Button {
+  position: relative;
+  width: 375px;
+}
+div.all section#firstpage div.theme div.handAndcircle Button .icon {
+  width: 300px;
+}
+div.all section#firstpage div.theme div.handAndcircle Button p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 2rem;
+  font-size: 1.8rem;
+  animation: shine 2s linear infinite;
+}
+div.all section#secondPage {
+  min-height: 90vh;
+  position: relative;
+  background-color: #ffffe8;
+  min-height: 1000px;
+  position: relative;
+}
+div.all section#secondPage div#headerdown {
+  background-color: #5c9666;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  height: 130px;
+  width: 100%;
+}
+div.all section#secondPage div#headerdown img#downpic {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  transition: transform 300ms;
+}
+div.all section#secondPage div#headerdown nav#under {
+  height: 100px;
+  transition: transform 250ms;
+}
+div.all section#secondPage div#headerdown nav#under button {
+  font-size: 20px;
+  width: 105px;
+  height: 40px;
+  color: #5c9666;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 1rem;
+  border: unset !important;
+}
+div.all section#secondPage div#headerdown nav#under button:hover {
+  height: 105px;
+  border-radius: 50%;
+  background-color: #fac569;
+  color: white;
+}
+div.all section#secondPage div#headerdown div.greenunder {
+  height: 110px;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+}
+div.all section#secondPage div#headerdown div.greenunder div:hover {
+  cursor: pointer;
+}
+div.all section#secondPage div.productarea {
+  height: 740px;
+  width: 100%;
+  margin-top: 50px;
+  background-image: url("./homepng/bigtable.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 410px;
+}
+div.all section#secondPage div.productarea .title {
+  width: 260px;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  transition: transform 250ms;
+}
+div.all section#secondPage div.productarea .product {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+div.all section#secondPage div.productarea img.flower555 {
+  width: 363px;
+  height: 330px;
+  transition: transform 250ms;
+  position: relative;
+  bottom: 2rem;
+}
+div.all section#secondPage div.productarea .slogan {
+  margin-top: 15px;
+  position: relative;
+  bottom: 1.5rem;
+}
+div.all section#secondPage img#BG {
+  position: absolute;
+  top: 35rem;
+  width: 100.25%;
+}
+div.all section#secondPage ul.ulll {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  width: 100%;
+}
+div.all section#secondPage ul.ulll li {
+  list-style-type: none;
+}
+div.all section#secondPage ul.ulll h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 1rem;
+}
+div.all section#thirdpage {
+  min-height: 120vh;
+  background-image: url("./homepng/home-bg1.png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+div.all section#thirdpage img.meat {
+  height: 400px;
+}
+div.all section#thirdpage .left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+div.all section#thirdpage .right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+div.all section#thirdpage div#thirdpgHouse {
+  background-image: url("./4/BG3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 103vh;
+  border-bottom: 2px solid black;
+}
+div.all section#thirdpage div#thirdpgHouse img#plantbottom {
+  position: absolute;
+  bottom: 0;
+}
+div.all section#thirdpage div#thirdpgHouse img#sologan {
+  position: relative;
+  bottom: 6.5rem;
+  width: 450px;
+  height: 163px;
+}
+div.all section#thirdpage div#thirdpgHouse div#activity {
+  width: 80%;
+  height: 25%;
+  margin-bottom: 5rem;
+}
+div.all section#thirdpage div#thirdpgHouse div#activity .showtag {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+}
+div.all section#thirdpage div#thirdpgHouse div#activity .showtag:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+div.all section#thirdpage div#thirdpgHouse div#activity .showtag:hover img.show {
+  transform: scale(1.2);
+}
+div.all section#thirdpage div#thirdpgHouse div#activity .showtag img.show {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: transform 0.3s ease;
+}
+div.all section#thirdpage div#thirdpgHouse div#tableZone {
+  position: absolute;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+div.all section#thirdpage div#thirdpgHouse div#tableZone button:hover {
+  animation: turnbig 1s forwards;
+}
+div.all section#thirdpage div#thirdpgHouse div#tableZone button a img {
+  width: 250px;
+  height: 230px;
+}
+div.all section#thirdpage div#thirdpgHouse div#tableZone button a p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 8rem;
+  font-size: 3rem;
+  color: white;
+}
+div.all section#thirdpage footer {
+  width: 100%;
+  height: 150px;
+  background-color: #5c9666;
+  position: absolute;
+  bottom: 0;
+}
+div.all section#thirdpage footer .custom-font {
+  font-family: "Courier New", Courier, monospace; /* Replace with your desired font-family */
+  /* Additional custom styles for the elements with the custom font */
+}
+div.all section#thirdpage footer .the .custom-font {
+  font-family: unset; /* Replace with your desired font-family */
+  /* Additional custom styles for the elements with the custom font */
+}
+div.all section#thirdpage footer .the .logggg {
+  height: 80px;
+}
+div.all section#thirdpage footer .tt .custom-font {
+  font-family: "Courier New", Courier, monospace; /* Replace with your desired font-family */
+  /* Additional custom styles for the elements with the custom font */
+}
+div.all section#thirdpage footer .ftinf .custom-font {
+  font-family: "Courier New", Courier, monospace; /* Replace with your desired font-family */
+  /* Additional custom styles for the elements with the custom font */
+}
+div.all section#thirdpage footer .ftinf h6 {
+  color: white;
+}
+div.all section#thirdpage footer .ftinf a {
+  font-size: 0.6rem;
+  color: white;
+  text-decoration: none;
+}
+div.all section#thirdpage footer .ftinf p {
+  font-size: 0.6rem;
+  color: white;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@keyframes showup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes turnbig {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+@keyframes shine {
+  0% {
+    text-shadow: 0px 0px 10px rgba(201, 57, 9, 0.75);
+  }
+  25% {
+    text-shadow: 0px 0px 9px rgb(212, 57, 9);
+  }
+  50% {
+    text-shadow: 0px 0px 9px rgba(212, 57, 9, 0.75);
+  }
+  75% {
+    text-shadow: 0px 0px 9px rgb(212, 57, 9);
+  }
+  100% {
+    text-shadow: 0px 0px 9px rgba(206, 89, 55, 0.75);
+  }
+}/*# sourceMappingURL=homepagestyle.css.map */

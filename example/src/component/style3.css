@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #5c9666;
+    position: relative;
+    bottom: 0;
+  }
+  footer .the .logggg {
+    height: 80px;
+  }
+  footer .tt .custom-font {
+    font-family: "Courier New", Courier, monospace; /* Replace with your desired font-family */
+    /* Additional custom styles for the elements with the custom font */
+  }
+  footer .ftinf .custom-font {
+    font-family: "Courier New", Courier, monospace; /* Replace with your desired font-family */
+    /* Additional custom styles for the elements with the custom font */
+  }
+  footer .ftinf h6 {
+    color: white;
+  }
+  footer .ftinf a {
+    font-size: 0.6rem;
+    color: white;
+    text-decoration: none;
+  }
+  footer .ftinf p {
+    font-size: 0.6rem;
+    color: white;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }

@@ -1,0 +1,242 @@
+/* .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  } */
+.teachingPage{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDF6;
+}
+.ProductImg{
+    height: 100%;
+}
+.ProductImg img{
+margin:0 auto;
+width: 100%;
+}
+.showImg .col{
+    overflow: hidden;
+}
+
+.smallImg{
+    display: flex;
+    width: 100%;
+}
+.ProductImg .smallImg img{
+  /* width: 120px;
+  height: 120px;
+  margin: auto;
+  padding: 7px; */
+  /* display: block; */
+  min-width: 120px;
+  min-height: 120px;
+  margin: 0.3rem;
+}
+.ProductImg .smallImg img:hover{
+    filter:brightness(50%);
+}
+
+/* .ProductImg .smallImg input{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  padding: 5px;
+} */
+.col{
+    display: flex;
+    justify-content: center;
+
+}
+.col img{
+    width: 100px;
+    margin: auto;
+}
+
+/* .changimg{
+    background-color: azure;
+    width: 570px;
+    margin: 0;
+} */
+.changimg img{
+    /* margin: 50px; */
+    width: 100px;
+    margin-top: 20px;
+
+}
+select{
+    margin-left: 50px;
+    width: 150px;
+}
+.buttonJoin{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.buttonJoin .btn-outline-success{
+    width: 30%;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.buttonJoin .btn-outline-danger{
+    width: 30%;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.teacherContent{
+    /* background-color: bisque; */
+    margin-top: 60px;
+
+}
+
+
+.teacher{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+   
+}
+.teacher img{
+width: 200px;
+}
+
+.teacher p{
+    padding: 10px;
+    font-size: 20px;
+}
+h4{
+    padding: 10px;
+    
+}
+.teacherContent p{
+    font-size: 20px;
+}
+.col-6{
+    border-right: 2px gray solid;
+}
+/* .transportation{
+    display: flex;
+    align-items: center;
+} */
+.myMap{
+    width: 100%;
+    height: 250px;
+    background-color:darkgray;
+}
+.messageBoard{
+    height: 600px;
+    background-color: #E9F6CD;
+    display: flex;
+    justify-content: center;
+    border: none;
+    
+}
+.from-group{
+    margin: 20px;
+}
+
+.recommend{
+    /* margin: auto; */
+    width: 100%;
+}
+/* .recommend img{
+    width: 400px;
+} */
+
+.title{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(123, 123, 123);
+}
+
+.price{
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(77, 77, 77);
+}
+.teacherM{
+    margin-left: 10px;
+}
+
+
+label{
+    font-size: 20px;
+    color: rgb(123, 123, 123);
+}
+.messageBoard button{
+    width: 250px;
+}
+.location{
+    font-size:20px;
+    padding:20px;
+}
+.other ul{
+    font-size: 20px;
+}
+
+.transportation ul{
+    font-size: 20px;
+}
+.teacherM{
+    font-size: 20PX;
+}
+.list-group-item{
+    margin-top: 10px;
+}
+
+#send-btn{
+    display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+#send-btn button{
+    background-color: #FFFDF6;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 30px 5px 20px;
+    color: rgb(90, 90, 90);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#send-btn button img{
+    display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+#send-btn button:hover img{
+    animation: fly 2s ease 1;
+}
+
+@keyframes fly {
+    0% {
+      transform: translateX(0%);
+    }50% {
+        transform: translateX(300%);
+      }
+    
+      100% {
+        transform: translateX(0);
+      }
+    }

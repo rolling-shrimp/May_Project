@@ -1,0 +1,452 @@
+#main_body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #5C9666;
+}
+
+#main_body_inner {
+    position: absolute;
+    width: 1774px;
+    height: 1000px;
+    left: 70px;
+    top: 47px;
+    background: #E9F7CD;
+    border-radius: 20px;
+}
+
+
+#main_body_sidebar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px 33px;
+    gap: 150px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 408px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+
+    background: #5C9666;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 20px;
+
+
+}
+
+#userLoginLOGO {
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 162px;
+    top: 44.69px;
+
+}
+
+.email {
+    position: absolute;
+    width: 325px;
+    height: 62px;
+    left: 90px;
+    top: 192.69px;
+    background: #E9F7CD;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.password {
+    position: absolute;
+    width: 325px;
+    height: 62px;
+    left: 90px;
+    top: 291.69px;
+    background: #90E07C;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.user_login_submit {
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    left: 90px;
+    top: 457.69px;
+
+    background: #5AAB8E;
+    border-radius: 100px;
+}
+
+#lost_password {
+    /* 忘記密碼 */
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 100px;
+    top: 366.19px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.045em;
+
+    color: #454545;
+
+}
+
+#register {
+    position: absolute;
+    width: 58px;
+    height: 21px;
+    left: 180px;
+    top: 366.19px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.045em;
+
+    color: #5AAB8E;
+}
+
+.modal-dialog {
+
+    overflow-y: initial !important;
+
+}
+
+.modal-body {
+
+    /* min-height: 600px; */
+    align-items: center;
+
+    overflow-y: auto;
+
+}
+
+#userSidebarIcon {
+    position: absolute;
+    top: 51.56px;
+}
+
+/*sidebar css*/
+/* ------------------------------------------------------------------------------------- */
+.sidebar {
+    position: absolute;
+    width: 342px;
+    height: 300px;
+    top: 200px;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar li:hover {
+    border-bottom-color: lightgreen;
+}
+
+.sidebar li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.sidebar li a:hover {
+    color: lightgreen;
+}
+
+/* ----------------------------------------------------------------------------------------*/
+/*sidebar css*/
+
+#main_body_show {
+    position: absolute;
+    width: 1774px;
+    height: 980px;
+    left: 478px;
+    top: 47px;
+    z-index: 1;
+}
+
+.circle {
+    width: 147.87px;
+    height: 147.87px;
+    border-radius: 50%;
+    /* 設置圓形邊框半徑為50% */
+    overflow: hidden;
+    /* 隱藏圖像溢出的部分 */
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 調整圖像大小以填滿圓形區域 */
+}
+
+#userName {
+    position: absolute;
+    left: 220px;
+    top: 69.06px;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.7em;
+    color: #000000;
+}
+
+#userMail {
+    position: absolute;
+    left: 220px;
+    top: 109.06px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: #565C5C;
+}
+
+#main_body_SelectInfo {
+    position: absolute;
+    width: 1281px;
+    height: 727px;
+    left: -30px;
+    top: 170px;
+    background: #FFFDF7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+#Logout {
+    position: absolute;
+    left: 1072px;
+    top: 61.75px;
+    align-items: center;
+    background: #5AAB8E;
+    border-radius: 20px;
+    width: 60px;
+    font-size: 30px;
+}
+#form_submit {
+    
+    left: 1129.94px;
+    top: 769.75px;
+    /* align-items: center; */
+    background: #5AAB8E;
+    border-radius: 20px;
+    text-align: center;
+    /* line-height: unset !important; */
+}
+#userdata {
+    box-sizing: border-box;
+    position: absolute;
+    width: 721px;
+    height: 670.75px;
+    /* left: 52px; */
+    left: 280px;
+    top: 67px;
+    background: #FFFDF7;
+    border: 1px solid #5AAB8E;
+    border-radius: 20px;
+}
+
+#userdata_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 172px;
+    height: 20px;
+    left: 69.07px;
+    top: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4em;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #252B29;
+}
+
+.userdataList {
+    position: absolute;
+    height: 375px;
+    left: 132.07px;
+    top: 118.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#user_form label{
+    font-size:30px;
+}
+#user_form{
+    padding:1rem;
+    position:relative;
+    bottom: 1rem;  
+}
+#user_form label,
+input {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 5px 0;
+    font-size: 30px;
+
+}
+
+
+
+#modalcart form img{
+    max-width: 40px;
+    height: auto;            
+}
+.header,
+.content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header {
+    height: 66px;
+    background-color: #5AAB8E;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.content {
+    height: 127px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+
+.header li,
+.content li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order_li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order_li p {
+    width: 200px;
+}
+.collection{
+    width: 260px; height: 250px; float: left; margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.collection img{
+    width: 260px; height: 157px;
+    object-fit:fill;
+    margin-left:0px;  
+    border-radius: 10px;          
+}
+.collection p{
+    text-align: center;
+    font-style: oblique;            
+} 
+.collection span{
+    font-size: 14px;
+    color: #686d6d;
+             
+}    
+.collection p img{
+    width: 40px;
+    height: 40px; 
+    margin-right: 0%;   
+}
+.collection p img:first-of-type {
+    padding-right: 5px;
+}
+.ticket {
+    display: inline-block;
+    width: 493.5px;
+    height: 174px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ticket img {
+    width: 174px;
+    height: 174px;
+    object-fit: contain;
+    margin-left: 0px;
+    border-radius: 10px;
+    float: left;
+}
+
+.ticketText {
+    width: 300px;
+    height: 174px;
+    float: left;
+    padding-left: 20px;
+    overflow: hidden;
+    margin-top: 25px;
+    font-size: 16px;            
+
+}
+form.log_into{
+    background-color: unset;
+}

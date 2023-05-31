@@ -1,0 +1,35 @@
+div#headerdown {
+    background-color: #5c9666;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    height: 130px;
+    width: 100%;
+  }
+  div#headerdown img#downpic {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+  }
+  div#headerdown nav#under button {
+    font-size: 20px;
+    width: 105px;
+    height: 40px;
+    color: #5c9666;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 1rem;
+    border: unset !important;
+  }
+  div#headerdown nav#under button:hover {
+    height: 105px;
+    border-radius: 50%;
+    background-color: #fac569;
+    color: white;
+  }
+  div#headerdown div.greenunder {
+    height: 110px;
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+  }
